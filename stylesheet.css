@@ -1,0 +1,220 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+input,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    list-style: none;
+}
+
+/* Ketik code Anda dibawah */
+header {
+    background-color: #3d3d3d;
+    height: 90px;
+    width: 100%;
+    font-size: 16px;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 10
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 10px;
+    float: left;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    line-height: 90px;
+    padding: 0 20px;
+    float: left;
+    color: white;
+    background-color: rgba(61, 61, 61, 1.0);
+    display: block;
+    transition: all 0.5s;
+}
+
+.a1:hover {
+    background-color: rgba(75, 75, 75, 1.0);
+}
+
+.a2:hover {
+    background-color: rgba(75, 75, 75, 1.0);
+}
+
+.a3:hover {
+    background-color: rgba(75, 75, 75, 1.0);
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://cdn.discordapp.com/attachments/722526290967658529/724628454565478520/Minuman_Coklat.jpg);
+    background-size: cover;
+    color: blue;
+    text-align: center;
+    opaity: 0.8;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+    font-size: 24px;
+    margin-bottom: 3px;
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+
+.lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon img {
+    width: 90%;
+    height: 350px;
+    padding: 5px 5px;
+}
+
+.lesson-icon img:hover {
+    width: 100%;
+    height: 380px;
+    padding: 5px 5px;
+}
+
+.lesson-icon p {
+    position: relative;
+    width: 100%;
+    color: 18px;
+    color: #5f5d60;
+    font-size: 20px;
+}
+
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #5f5d60;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+footer {
+    background-color: #cc1717;
+    font-size: 16px;
+}
+
+.footer-logo {
+    height: 70px;
+    float: left;
+    padding: 5px 5px;
+}
+
+.footer-right {
+    color: rgb(124, 64, 54);
+    float: right;
+    margin: 5px 5px;
+    text-align: right;
+}
+
+.footer-right h2 {
+    font-size: 16px;
+}
